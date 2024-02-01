@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 500%;
+    width: 100%;
+    position: absolute;
+}
+h1{
+    font-family: 'Gloock', serif;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 20px;
+}
+h2{
+    padding-left: 80px;
+    color: rgb(255, 102, 0) ;
+    font-size: 35px;
+}
+#SRA{
+    color: rgb(255, 102, 0) ;
+}
+.menubar{
+    height: 15%;
+    width: 100%;
+    /* background-color: blue; */
+    /* justify-content: space-between; */
+    align-items: center;
+    display: flex;
+    position: absolute;
+    padding: 10px 30px;
+    /* background-color: rgb(255, 255, 255) */
+}
+.menubarimg{
+    position: absolute;
+    color: white;
+    right: 90px;
+}
+#logo{
+    padding: 10px;
+} 
+#logo:hover{
+    background-color: rgb(117, 116, 116);
+}
+#li:hover{
+    background-color: rgb(117, 116, 116);
+}
+hr{
+   color: black;
+}
+.menubar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 140px ;
+}
+h6{
+    font-size: 50px;
+}
+.menubar ul li{
+    list-style: none;
+    padding: 10px 15px;
+    justify-content: center;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    /* background-color: aqua; */
+}
+#aboutus{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* padding-bottom: 90px; */
+
+}
+
+
+.img1{
+    background-image: url(luis-gherasim-aLPY2rRTYQI-unsplash.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 90%;
+    width: 40%;
+    top: 95%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+}
+
+.img2{
+    background-image: url(elijah-merrell-4BnGQQ2Qoak-unsplash.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 95%;
+    width: 40%;
+    top: 210%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+}
+
+.img3{
+    background-image: url(vollume-zfuTftA8ts0-unsplash.jpg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+    top: 330%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+}
+
+.para1{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    width: 40%;
+    top: 94%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+}
+
+p{
+    padding: 20px;
+    /* position: absolute; */
+}
+
+.para2{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    width: 40%;
+    top: 205%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+}
+.para3{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    width: 40%;
+    top: 321%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+}
+/* .photos .content{
+    top: 900%;
+} */
+.ending{
+background-color: rgb(18, 18, 34);
+padding: 70px 30px;
+position: absolute;
+/* text-align: center; */
+display: flex;
+top: 400%;
+width: 100%;
+}
+h3{
+    font-family: 'Gloock', serif;
+    color: white;
+    font-size: 30px;
+    padding-left: 40px;
+    font-weight: 100;
+}
+input{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    right: 180px;
+    padding: 10px 40px;
+    text-align: center;
+    justify-content: center;
+    bottom: 85px;
+}
+button{
+    position: absolute;
+    right: 55px;
+    padding: 11.4px 35px;
+    text-align: center;
+    justify-content: center;
+    bottom: 85px;
+    color: white;
+    background-color: rgb(255, 102, 0);
+    border: none;
+
+
+} 
+.endingcontent{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 3200px;
+    left: 4%;
+}
+
+.compamy{
+    left: 80px;
+    bottom: 140px;
+   }
+   .service{
+    left: 320px;
+    bottom: 140px;
+
+   }
+   .orders{
+    left: 560px;
+    bottom: 140px;
+
+   }
+   .payment{
+    left: 960px;
+    bottom: 177px;
+   }
+
+.payment img{
+      height: 40px;
+
+     }
+#end{
+    position: absolute;
+}
+
+.copyright{
+    left: 800px;
+    bottom: 30px;
+} 
+h5{
+    font-weight: 100;
+}
+#heading{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+
+ul li{
+    list-style: none;
+    font-weight: 100;
+    padding: 2px;
+}
